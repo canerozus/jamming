@@ -1,6 +1,6 @@
 let accessToken;
 const clientId = "5ffe005416d7486fbd92056ce7c78461";
-const redirectUri = "http://localhost:3000";
+const redirectUri = "https://jam-with-caner.netlify.app";
 const Spotify = {
     getAccessToken() {
         if (accessToken) {
